@@ -1,4 +1,4 @@
-class Opencv < Formula
+class BtopencvAT411 < Formula
   desc "Open source computer vision library"
   homepage "https://opencv.org/"
   url "https://github.com/opencv/opencv/archive/4.1.1.tar.gz"
