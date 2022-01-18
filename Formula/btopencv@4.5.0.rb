@@ -12,9 +12,9 @@ class BtopencvAT450 < Formula
   end
 
   bottle do
-    sha256 "c09567bc560bd16b0f94c02cd70b2dae4f30e74c8f119e797bd63593217aaf9b" => :big_sur
-    sha256 "09bda33a4e34774e8399b170d2833adbb290777055d06925045247bc79d72007" => :catalina
-    sha256 "e50a3537872f36d7881e244daf87b6c83f1311d14b54c62f7f6bb9c5b895362f" => :mojave
+    sha256 big_sur: "c09567bc560bd16b0f94c02cd70b2dae4f30e74c8f119e797bd63593217aaf9b"
+    sha256 catalina: "09bda33a4e34774e8399b170d2833adbb290777055d06925045247bc79d72007"
+    sha256 mojave: "e50a3537872f36d7881e244daf87b6c83f1311d14b54c62f7f6bb9c5b895362f"
   end
 
   depends_on "cmake" => :build
